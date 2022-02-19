@@ -1,18 +1,17 @@
 programa
 {
-	inclua biblioteca Util
- --> u
-	
-inteiro cad = 0
+	inclua biblioteca Util --> u
+	inteiro cad = 0
 	funcao inicio()
 	{
+		escreva(" Bem vindo ao Banco WWW.Solutions \n Temos ", cad, " Clientes cadatrados\n") 
+		u.aguarde(2000)
 		inteiro op = menu_inicial()
 		
 	}
 
 	funcao inteiro menu_inicial(){
 		inteiro op = -1
-		escreva(" Bem vindo ao Banco WWW.Solutions \n Temos ", cad, " Clientes cadatrados\n") 
 		faca{
 			limpa()
 			escreva("1) Cadastrar Cliente \n")
@@ -31,5 +30,13 @@ inteiro cad = 0
 	}
 }
 /* $$$ Portugol Studio $$$ 
- * Desenvolvido por Wisley Jose Alves
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 188; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
