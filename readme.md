@@ -11,6 +11,8 @@ Desenvolver um algoritmo que irá simular um sistema bancário, onde irá realiz
 * Realizar deposito
 * Fechar 
 
+<img src="https://github.com/wistech7l/Conta-Banco--portugol/blob/master/imagens/menu_inicar.PNG?raw=true">
+
 O algoritmo deverá ter as opções acima dentro de um menu inicial, assim também com a quantidade de clientes já cadastrados. 
 
 <br/>
