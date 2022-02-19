@@ -9,14 +9,17 @@ Desenvolver um algoritmo que irá simular um sistema bancário, onde irá realiz
 * Ver saldo
 * Realizar saque
 * Realizar deposito
+* Listar clientes
 * Fechar 
+<br/>
 <div align="center">
-<img src="https://github.com/wistech7l/Conta-Banco--portugol/blob/master/imagens/menu_inicar.PNG?raw=true">
+<img src="./imagens/menu_iniciar.PNG?raw=true">
 </div>
 
 O algoritmo deverá ter as opções acima dentro de um menu inicial, assim também com a quantidade de clientes já cadastrados. 
+<br/>
 <div align="center">
-<img src="https://github.com/wistech7l/Conta-Banco--portugol/blob/master/imagens/bem-vindo.PNG?raw=true">
+<img src="./imagens/bem-vindo.PNG?raw=true">
 </div>
 <br/>
 
@@ -26,22 +29,59 @@ Na função de cadastrar o cliente deverá solicitar as seguintes informações:
 * Cadastrar senha
 * Saldo inicial 
 * Confirmar cadastro 
+
 Ao confirmar o cadastro deverá gerar um número da conta para esse cliente cadastrado onde o numero da conta deverá ser um valor único para cada cliente. 
 
 <br/>
+<div align="center">
+<img src="./imagens/cadastro.PNG?raw=true">
+</div>
+<br/>
+<br/>
 
 ## Realizar Saque 
-Na opção saque deverá solicitar o número da conta que se deseja realizar o saque, solicitar o valor do saque e verificar se o cliente tem o valor disponível na conta, caso não tenha, não deverá permitir o saque. 
+Na opção saque deverá solicitar:
+* Número da conta que se deseja realizar o saque, 
+* Valor do saque 
+
+Será necessário verificar se o cliente tem o valor disponível na conta, caso não tenha, não deverá permitir o saque. 
 
 <br/>
 
 ## Realizar Depósito
-Na opção de deposito também devera informa o numero da conta que se deseja depositar e o valor do se deseja depositar. 
+Na opção de depósito deverá solicitar
+* Número da conta que se deseja depositar
+* Valor a ser depositado
+Ao confirmar depósito informar novo valor de saldo
 
+<br/>
+<div align="center">
+<img src="./imagens/deposita_conta_existente.PNG?raw=true">
+</div>
+<br/>
+
+### _Caso o número da conta não exista no cadastro_
+
+<br/>
+<div align="center">
+<img src="./imagens/deposita_conta_nao_existente.PNG?raw=true">
+</div>
 <br/>
 
 ## Ver Saldo
 Na opção de ver saldo deverá solicitar o numero da conta que se deseja visualizar o saldo.
+
+<br/>
+
+## Listar clientes
+Na opção de listar deverá informa no numero da conta e nome dos clientes cadastrados
+
+<br/>
+<div align="center">
+<img src="./imagens/listar.PNG?raw=true">
+</div>
+<br/>
+<br/>
 
 <br/>
 
