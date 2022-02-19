@@ -16,7 +16,7 @@ Desenvolver um algoritmo que irá simular um sistema bancário, onde irá realiz
 
 O algoritmo deverá ter as opções acima dentro de um menu inicial, assim também com a quantidade de clientes já cadastrados. 
 <div aling="center">
-<img src="https://github.com/wistech7l/Conta-Banco--portugol/blob/master/imagens/bem_vindo.PNG?raw=true">
+<img src="https://github.com/wistech7l/Conta-Banco--portugol/blob/master/imagens/bem-vindo.PNG?raw=true">
 </div>
 <br/>
 
