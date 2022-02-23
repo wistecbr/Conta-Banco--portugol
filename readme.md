@@ -77,16 +77,16 @@ Caso não encontre o valor de ```-1``` será retornado.
 
 ```
 funcao  inteiro buscar_cliente(inteiro cod){
-		inteiro pos = -1
+	inteiro pos = -1
 
-		para(inteiro i = 0; i < cad; i++){
-			se(conta[i] == cod){
-				pos = i
-				pare // para o comando de repetição já que encontrou a conta
-			}
+	para(inteiro i = 0; i < cad; i++){
+		se(conta[i] == cod){
+		    pos = i
+			pare // para o comando de repetição já que encontrou a conta
 		}
-		retorne pos
 	}
+	retorne pos
+}
 ```
 
 <br/>
