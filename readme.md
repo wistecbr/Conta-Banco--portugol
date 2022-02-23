@@ -68,6 +68,29 @@ Ao confirmar depósito informar novo valor de saldo
 </div>
 <br/>
 
+## Função buscar conta
+
+A função irá receber como parâmetro de busca o código da cont e irá retorna a posição do vetor onde foi encontrada a conta.
+Caso não encontre o valor de ```-1``` será retornado.
+
+<br/>
+
+```
+funcao  inteiro buscar_cliente(inteiro cod){
+		inteiro pos = -1
+
+		para(inteiro i = 0; i < cad; i++){
+			se(conta[i] == cod){
+				pos = i
+				pare // para o comando de repetição já que encontrou a conta
+			}
+		}
+		retorne pos
+	}
+```
+
+<br/>
+
 ## Ver Saldo
 Na opção de ver saldo deverá solicitar o numero da conta que se deseja visualizar o saldo.
 
